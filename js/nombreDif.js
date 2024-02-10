@@ -27,6 +27,6 @@ btDificil.addEventListener("click",function(){
         alert("Es necesario un NickName");
 
     }else{
-        window.location.href="../level3/colDif.html"
+        window.location.href="./level3/colDif.html"
     }
 })

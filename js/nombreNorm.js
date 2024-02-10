@@ -27,6 +27,6 @@ btnNormal.addEventListener("click",function(){
         alert("Es necesario un nombre para jugar");
 
     }else{
-        window.location.href="../level2/coloresNorm.html"
+        window.location.href="./level2/coloresNorm.html"
     }
 })

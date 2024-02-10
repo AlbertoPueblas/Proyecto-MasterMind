@@ -33,7 +33,7 @@ btnFacil.addEventListener("click",function(){
         alert("Es necesario un NickName");
 
     }else{
-        window.location.href="../level1/colores.html"
+        window.location.href="./level1/colores.html"
     }
 })
 
@@ -42,7 +42,7 @@ btNormal.addEventListener("click",function(){
         alert("Es necesario un NickName");
 
     }else{
-        window.location.href="../level2/colNorm.html"
+        window.location.href="./level2/colNorm.html"
     }
 })
 
@@ -51,7 +51,7 @@ btDificil.addEventListener("click",function(){
         alert("Es necesario un NickName");
 
     }else{
-        window.location.href="../level3/colDif.html"
+        window.location.href="./level3/colDif.html"
     }
 })
 
