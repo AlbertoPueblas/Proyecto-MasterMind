@@ -14,16 +14,17 @@
 }
 #colores{
     margin-top: 0.2em;
-    margin-left: 1.6em;
+    margin-left: 1.3em;
     max-width: 20em;
-    background-color: rgb(16, 89, 137);
+    background-color: rgb(132, 75, 6);
     border-radius: 3em;
     justify-content: center;
+    border: 0.3em solid rgb(123, 69, 4);
 }
 
 .card{
-    background-image: url(../img/mastermindFondo.jpg);
-    background-repeat:no-repeat;
+    background-image: url(../img/mastermind.png);
+
     background-size: contain;
     display: flex;
     width: 54rem; 
@@ -90,7 +91,11 @@
     display: flex;
     justify-content: space-around;
     align-items: end;
-    margin-bottom: 0.6em;
+    margin-bottom: 2em;
+}
+
+#guardarColor{
+    margin-bottom: 0.3em;
 }
 
 p{
@@ -123,6 +128,7 @@ h4{
 /*Barra del nombre*/
 #barra{
     opacity: 80%;
+    margin-bottom: 2em;
 }
 
 
@@ -140,6 +146,19 @@ h4{
     width: 23em;
     height: 35em;
     border-radius: 2em;
+    margin-top: -2.5em;
+    border: 0.3em solid rgb(123, 69, 4);
+
+}
+
+.tableroFacil{
+    background-color: rgb(197, 112, 9);
+    width: 23em;
+    height: 41em;
+    border-radius: 2em;
+    margin-top: -2.5em;
+    border: 0.3em solid rgb(123, 69, 4);
+
 }
 
 .botonColor{
@@ -213,3 +232,4 @@ a{
 #caja{
     margin-right: 3em;
 }
+

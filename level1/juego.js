@@ -109,9 +109,9 @@ function verificarCombinacion() {
             resultado.push('purple'); // Color morado para posición correcta
             aciertos++;
         } else if (combinacionSecreta.includes(combinacionActual[i])) {
-            resultado.push('black');
+            resultado.push('white');
         } else {
-            resultado.push('white'); // Otra retroalimentación
+            resultado.push('black'); // Otra retroalimentación
         }
 
         const divResultado = document.createElement('div');
