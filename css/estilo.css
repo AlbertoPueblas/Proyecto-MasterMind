@@ -1,0 +1,211 @@
+.navbar{
+    background-color: lightblue;
+}
+
+.container-fluid{
+    width: 100vw;
+    height: 100vh;
+    margin-top: -3em;
+    background-color: lightblue;
+}
+
+.caja{
+    text-align: center;
+}
+#colores{
+    margin-top: 0.2em;
+    margin-left: 1.6em;
+    max-width: 20em;
+    background-color: rgb(16, 89, 137);
+    border-radius: 3em;
+    justify-content: center;
+}
+
+.card{
+    background-image: url(../img/mastermindFondo.jpg);
+    background-repeat:no-repeat;
+    background-size: contain;
+    display: flex;
+    width: 54rem; 
+}
+
+.card h1{
+    text-align: center;
+    color: chartreuse;
+    text-shadow: 0.1em 0.1em black;
+}
+.cardLose{
+    background-image: url(../img/youLose.gif);
+    background-repeat:no-repeat;
+    background-size: contain;
+    display: flex;
+    width: 54rem; 
+}
+
+.cardLose h1{
+    text-align: center;
+    color: chartreuse;
+    text-shadow: 0.1em 0.1em black;
+}
+
+.cardWin{
+    background-image: url(../img/win.gif);
+    background-repeat:no-repeat;
+    background-size: contain;
+    display: flex;
+    width: 54rem; 
+}
+
+.cardWin h1{
+    text-align: center;
+    color: chartreuse;
+    text-shadow: 0.1em 0.1em black;
+}
+
+.card .botones{
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-bottom: 0.6em;
+
+}
+
+#botonJugar{
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#botonAyuda{
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-bottom: 0.6em;
+}
+
+p{
+   font-size: large;
+}
+
+.text h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-style: italic;
+}
+
+h4{
+    text-align: center;
+    padding: 0.3em;
+}
+
+.nombre{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+/*Barra del nombre*/
+#barra{
+    opacity: 80%;
+}
+
+
+.coloresGuardados{
+    display: flex;
+}
+
+.colorInput{
+    display: center;
+}
+
+
+.tablero{
+    background-color: rgb(197, 112, 9);
+    width: 23em;
+    height: 35em;
+    border-radius: 2em;
+}
+
+.botonColor{
+    width: 20em;
+    height: 10em;
+    text-align: center;
+    
+}
+
+ 
+/*Circulos del tablero funcional*/
+#tablero {
+    display: flex;
+    justify-content: center;
+}
+
+.ficha {
+    width: 50px;
+    height: 50px;
+    border: 0.2em solid black;
+    margin: 5px;
+    border-radius: 25px;;
+}
+
+
+/* Colores para la contraseña.*/
+.color-circle {
+    width: 1.7em;
+    height: 1.7em;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.4em;
+    cursor: pointer;
+}
+
+.morado{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.blanco{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 0.1em solid black;
+}
+
+.negro{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+.colorMuestra{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-align: center;
+}
+
+#colores{
+    margin-right: 2em;
+}
+
+#caja{
+    margin-right: 3em;
+}
