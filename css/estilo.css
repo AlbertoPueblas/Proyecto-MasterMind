@@ -41,6 +41,8 @@
     background-size: contain;
     display: flex;
     width: 54rem; 
+    justify-content: center;
+
 }
 
 .cardLose h1{
@@ -55,6 +57,7 @@
     background-size: contain;
     display: flex;
     width: 54rem; 
+    justify-content: center;
 }
 
 .cardWin h1{
@@ -154,7 +157,7 @@ h4{
 .tableroFacil{
     background-color: rgb(197, 112, 9);
     width: 23em;
-    height: 41em;
+    height: 42em;
     border-radius: 2em;
     margin-top: -2.5em;
     border: 0.3em solid rgb(123, 69, 4);
@@ -186,11 +189,11 @@ h4{
 
 /* Colores para la contraseña.*/
 .color-circle {
-    width: 1.7em;
-    height: 1.7em;
+    width: 2.2em;
+    height: 2.2em;
     border-radius: 50%;
     display: inline-block;
-    margin: 0.4em;
+    margin: 0.2em;
     cursor: pointer;
 }
 
@@ -233,3 +236,12 @@ a{
     margin-right: 3em;
 }
 
+#comprobarCombinacion{
+    max-width: 20em;
+    margin-top: 0.5em;
+
+}
+
+#generarCombinacion{
+    max-width: 20em;
+}
