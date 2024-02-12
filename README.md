@@ -11,5 +11,5 @@ En este proyecto creamos el juego utilizando las siguientes tecnologías:
 ![image](https://github.com/AlbertoPueblas/Proyecto-MasterMind/assets/154467649/e840ed56-c3b9-4d0b-8174-377a673c2334)
 **En la siguiente pantalla se escogen los colores por input y luego se pintan para pasarlos al tablero.**
 ![image](https://github.com/AlbertoPueblas/Proyecto-MasterMind/assets/154467649/4966267c-2bda-4785-b1de-38384b4ea261)
-**Una vez tenemos los colores solo tienes que crear una combinacion y hacer click en el color y luego en el tablero para implementarlo. Segun ganamos o perdamos nos redireccionará a una página u otra.**
+**Una vez tenemos los colores solo tienes que crear una combinacion y hacer click en el color y luego en el tablero para implementarlo. Segun ganemos o perdamos nos redireccionará a una página u otra.**
 
