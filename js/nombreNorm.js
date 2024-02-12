@@ -3,7 +3,7 @@ const miDiv = document.getElementById('caja');
 const datoNombre = localStorage.getItem('nombre');
 //Variables.
 let boton = document.getElementById("boton")
-let inicio = document.getElementById("inicio")
+let btnInicio = document.getElementById("inicio")
 miDiv.textContent = datoNombre;
 let btnFacil = document.getElementById("levelEasy")
 
@@ -14,7 +14,7 @@ boton.addEventListener("click",function(){
 })
 
 //Evento que elimina el nombre y los colores.
-inicio.addEventListener("click",function(){
+btnInicio.addEventListener("click",function(){
     localStorage.removeItem('nombre');
     localStorage.removeItem('savedColor1');
     localStorage.removeItem('savedColor2');

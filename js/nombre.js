@@ -1,23 +1,23 @@
 //Constantes.
-const miDiv = document.getElementById('caja'); 
+const contNombre = document.getElementById('caja'); 
 const datoNombre = localStorage.getItem('nombre');
 //Variables.
 let boton = document.getElementById("boton")
-let inicio = document.getElementById("inicio")
+let btnInicio = document.getElementById("inicio")
 let btnFacil = document.getElementById("levelEasy")
 let btNormal = document.getElementById ('btnNormal')
 let btDificil = document.getElementById("btnDificil")
 //Pinta el nombre en pantalla.
-miDiv.textContent = datoNombre;
+contNombre.textContent = datoNombre;
 //Evento que guarda el nombre.
 boton.addEventListener("click",function(){
         localStorage.setItem("nombre", barra.value);
-        //console.log(localStorage.nombre);    
+           
 })
 
 //Evento que elimina el nombre y los colores.
-inicio.addEventListener("click",function(){
-    
+btnInicio.addEventListener("click",function(){
+
     localStorage.removeItem('nombre');
     localStorage.removeItem('savedColor1');
     localStorage.removeItem('savedColor2');

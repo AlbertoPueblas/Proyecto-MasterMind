@@ -20,11 +20,7 @@ colores.forEach(color => {
     });
 });
 
-
-
-
 fichas.forEach(ficha => {
-
     ficha.addEventListener('click', () => {
 
         if (colorSeleccionado !== '') {//Estrictamente diferente.
@@ -37,7 +33,7 @@ fichas.forEach(ficha => {
 //Evento llamado para borrar las clavijas una vez que se ha completado el juego
 document.getElementById('siguienteIntento').addEventListener('click', () => {
     combinacionActual = [];
-    
+
     fichas.forEach(ficha => {
         ficha.style.backgroundColor = '';
     });
@@ -64,7 +60,7 @@ document.getElementById('generarCombinacion').addEventListener('click', () => {
         const randomIndex = Math.floor(Math.random() * colores.length);
         combinacionSecreta.push(colores[randomIndex].style.backgroundColor);
     }
-    console.log('Combinación secreta generada:', combinacionSecreta);
+    
 });
 
 document.getElementById('comprobarCombinacion').addEventListener('click', () => {
