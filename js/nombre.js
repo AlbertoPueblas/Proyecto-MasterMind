@@ -9,7 +9,6 @@ let btNormal = document.getElementById ('btnNormal')
 let btDificil = document.getElementById("btnDificil")
 //Pinta el nombre en pantalla.
 miDiv.textContent = datoNombre;
-
 //Evento que guarda el nombre.
 boton.addEventListener("click",function(){
         localStorage.setItem("nombre", barra.value);
@@ -18,6 +17,7 @@ boton.addEventListener("click",function(){
 
 //Evento que elimina el nombre y los colores.
 inicio.addEventListener("click",function(){
+    
     localStorage.removeItem('nombre');
     localStorage.removeItem('savedColor1');
     localStorage.removeItem('savedColor2');

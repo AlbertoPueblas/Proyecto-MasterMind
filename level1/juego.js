@@ -9,12 +9,12 @@ window.addEventListener('load', function() {
     }
 });
 
-
 const fichas = document.querySelectorAll('.ficha');
 const colores = document.querySelectorAll('.color-circle');
 let colorSeleccionado = '';
 
 colores.forEach(color => {
+
     color.addEventListener('click', () => {
         colorSeleccionado = color.style.backgroundColor;
     });
@@ -24,7 +24,9 @@ colores.forEach(color => {
 
 
 fichas.forEach(ficha => {
+
     ficha.addEventListener('click', () => {
+
         if (colorSeleccionado !== '') {//Estrictamente diferente.
             ficha.style.backgroundColor = colorSeleccionado;
             combinacionActual = Array.from(fichas).map(f => f.style.backgroundColor);
@@ -35,6 +37,7 @@ fichas.forEach(ficha => {
 //Evento llamado para borrar las clavijas una vez que se ha completado el juego
 document.getElementById('siguienteIntento').addEventListener('click', () => {
     combinacionActual = [];
+    
     fichas.forEach(ficha => {
         ficha.style.backgroundColor = '';
     });
@@ -46,7 +49,7 @@ document.getElementById('siguienteIntento').addEventListener('click', () => {
     }
 
     tries = 0; // Reinicia el contador de intentos
-    console.log('Siguiente intento...');
+
 });
 
 
@@ -67,7 +70,7 @@ document.getElementById('generarCombinacion').addEventListener('click', () => {
 document.getElementById('comprobarCombinacion').addEventListener('click', () => {
     if (combinacionActual.length === 4) {
         const resultado = verificarCombinacion();
-        console.log('Resultado de la combinación:', resultado);
+        
     } else {
         alert('Por favor, Genera una combinación o completa las casillas antes de comprobar.');
     }
@@ -80,7 +83,7 @@ document.getElementById('siguienteIntento').addEventListener('click', () => {
         ficha.style.backgroundColor = '';
     });
 
-    console.log('Siguiente intento...');
+    
 });
 
 
@@ -91,7 +94,7 @@ function verificarCombinacion() {
     tries++;
 
     if (tries > maxTries) {
-        console.log('Se han agotado los intentos. ¡Juego terminado!');
+       
         return [];
     }
 

@@ -25,12 +25,6 @@ guardarColor.addEventListener('click', function() {
     });
 });
 
-//Evento que guarda los colores en localStorage
-btnAceptar.addEventListener("click", function() {
-    // Puedes guardar el color en Local Storage al hacer clic en btnAceptar
-    localStorage.getItem("savedColor", colorInput[0].value); // Suponiendo que solo quieres guardar el primer color
-    window.location.href = "../level1/tabFacil.html";
-});
 
 // Al hacer clic en un círculo, cambiar el color con el color guardado en Local Storage
 colorCircles.forEach((circle, index) => {
@@ -51,3 +45,11 @@ window.addEventListener('load', function() {
         }
     }
 });
+
+//Evento que guarda los colores en localStorage
+btnAceptar.addEventListener("click", function() {
+    // Puedes guardar el color en Local Storage al hacer clic en btnAceptar
+    localStorage.getItem("savedColor", colorInput[0].value); // Suponiendo que solo quieres guardar el primer color
+    window.location.href = "../level1/tabFacil.html";
+});
+
